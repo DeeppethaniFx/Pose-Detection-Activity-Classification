@@ -41,12 +41,12 @@ This project utilizes **MediaPipe's Pose Detection** module to recognize and tra
 |              | **Torso_Angle**                | > 170                 |
 
 
-knee_angle = calculate_angle from (hip, knee, ankle)
-torso_angle = calculate_angle from (right_shoulder, hip, knee)
-right_elbow_angle = calculate_angle from (right_shoulder, right_elbow, wrist)
-left_elbow_angle = calculate_angle from (left_shoulder, left_elbow, wrist)
-right_shoulder_angle = calculate_angle from (left_shoulder,right_shoulder,right_elbow)
-left_shoulder_angle = calculate_angle from (right_shoulder,left_shoulder,left_elbow)
+- knee_angle = calculate_angle from (hip, knee, ankle)
+- torso_angle = calculate_angle from (right_shoulder, hip, knee)
+- right_elbow_angle = calculate_angle from (right_shoulder, right_elbow, wrist)
+- left_elbow_angle = calculate_angle from (left_shoulder, left_elbow, wrist)
+- right_shoulder_angle = calculate_angle from (left_shoulder,right_shoulder,right_elbow)
+- left_shoulder_angle = calculate_angle from (right_shoulder,left_shoulder,left_elbow)
 
 ## Future Improvements
 - Support for additional activities (e.g., jumping jacks, lunges)
